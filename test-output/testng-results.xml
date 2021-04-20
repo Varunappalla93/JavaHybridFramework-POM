@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoCartApp Test Automation Suite" duration-ms="42447" started-at="2021-04-20T13:50:08Z" finished-at="2021-04-20T13:50:51Z">
+    <groups>
+    </groups>
+    <test name="Login Page Negative Test" duration-ms="42447" started-at="2021-04-20T13:50:08Z" finished-at="2021-04-20T13:50:51Z">
+      <class name="com.qa.opencart.tests.LoginPageNegativeTests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageNegativeTests@55b7a4e0]" name="setup" is-config="true" duration-ms="9690" started-at="2021-04-20T13:50:08Z" finished-at="2021-04-20T13:50:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginnegativetests(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageNegativeTests@55b7a4e0]" name="loginnegativetests" duration-ms="12644" started-at="2021-04-20T13:50:18Z" data-provider="loginNegativeData" finished-at="2021-04-20T13:50:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginnegativetests -->
+        <test-method status="PASS" signature="loginnegativetests(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageNegativeTests@55b7a4e0]" name="loginnegativetests" duration-ms="10080" started-at="2021-04-20T13:50:31Z" data-provider="loginNegativeData" finished-at="2021-04-20T13:50:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginnegativetests -->
+        <test-method status="PASS" signature="loginnegativetests(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageNegativeTests@55b7a4e0]" name="loginnegativetests" duration-ms="7847" started-at="2021-04-20T13:50:41Z" data-provider="loginNegativeData" finished-at="2021-04-20T13:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginnegativetests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageNegativeTests@55b7a4e0]" name="tearDown" is-config="true" duration-ms="2045" started-at="2021-04-20T13:50:49Z" finished-at="2021-04-20T13:50:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.LoginPageNegativeTests -->
+    </test> <!-- Login Page Negative Test -->
+  </suite> <!-- DemoCartApp Test Automation Suite -->
+</testng-results>

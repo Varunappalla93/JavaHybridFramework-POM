@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [DemoCartApp Test Automation Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.opencart.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.opencart.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="3" verbose="3" name="Product Page Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qa.opencart.tests.ProductInfoTest">
+        <methods>
+          <include name="prodcounttest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="productinfosetup"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.ProductInfoTest -->
+    </classes>
+  </test> <!-- Product Page Test(failed) -->
+</suite> <!-- Failed suite [DemoCartApp Test Automation Suite] -->
