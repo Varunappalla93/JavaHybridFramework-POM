@@ -16,5 +16,9 @@ ElementUtil eleut;
 		eleut=new ElementUtil(driver);
 	}
 	
+	public void common()
+	{
+		
+	}
 	
 }
